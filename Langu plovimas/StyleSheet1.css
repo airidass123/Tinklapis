@@ -1,0 +1,174 @@
+﻿body{
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	background-color: #c8fffe;
+}
+
+.deze{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+/* header**/
+header{
+	background-color: #5dcaff;
+	color: white;
+	padding-top:30px;
+	min-height: 70px;
+	border-bottom: #88d8ff 3px solid;
+
+}
+
+header a{
+	color:white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 17px;
+}
+
+header ul{
+	margin: 0;
+	padding: 0;
+}
+
+header li{
+	float: right;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #logo{
+float: left;
+}
+
+header #logo h1{
+	margin:0;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header a:hover{
+	color:#0083c3;
+	font-weight: bolder;
+}
+
+footer{
+	float: center;
+}
+
+.dabar a{
+	color:#0091d8;
+	font-weight: bold;
+}
+
+/*showcase*/
+
+#demo{
+	min-height: 400px;
+	background:url('img/langas.jpg')  no-repeat 0 -50px;
+    height: auto;
+    background-size: 100% 150%;
+    text-align: center;
+}
+
+#demo h1{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+	color: #ffffff;
+}
+
+#demo p{
+	padding: -50px;
+	color: #ffffff;
+}
+
+/*prenumerata*/
+#pren{
+	padding: 15px;
+	color:#ffffff;
+	background: #0097d8;
+}
+
+#pren h1{
+	float:left;
+}
+
+#pren form{
+	float: right;
+	margin-top: 15px;
+}
+
+#pren input[type="email"]{
+	padding:4px;
+	height: 25px;
+	width: 250px;
+}
+
+button {
+	height: 38px;
+	background: #004360;
+	border: 0;
+	padding: 0px 20px 0px 20px; 
+	color: white;
+	font-weight: bold;
+}
+
+#gebe{
+	margin-top: 20px;
+}
+
+#gebe .deze{
+	float: left;
+	width: 31%;
+	padding: 10px;
+	text-align: center;
+}
+
+#gebe .deze img{
+	width: 90px;
+}
+
+ul#kontaktai li{
+	list-style: none;
+	padding: 20px;
+	border: #cccccc solid 1px;
+	margin-bottom: 5px;
+	background: white;
+}
+
+footer{
+	margin-top: 20px;
+	padding: 20px;
+	color: black;
+	border: 3px solid #5bc3ff;
+	text-align: center;
+}
+
+aside#sonas{
+float: right;
+width: 30%;
+margin-top: 10px;
+}
+
+aside#sonas .back{
+
+}
+
+article#pagri{
+	float:left;
+	width: 65%;
+}
+
+.back{
+	padding: 15px;
+	background: #5dcaff;
+	margin-top: 10px;
+}
+
